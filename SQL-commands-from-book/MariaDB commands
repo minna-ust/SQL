@@ -35,3 +35,15 @@ ALTER TABLE Student MODIFY COLUMN Sage INT
 ALTER TABLE Course ADD UNIQUE(Cname)
 
 INSERT INTO Student VALUES ("200215121", "李勇", "男", 20, "CS")
+
+
+insert into Course values ("1", "数据库", "5", 4); 
+insert into Course values ("2", "数学",  null  , 2); 
+insert into Course values ("3", "信息系统", "1", 4); 
+insert into Course values ("4", "操作系统", "6", 3); 
+insert into Course values ("5", "数据结构", "7", 4); 
+insert into Course values ("6", "数据处理",  null  , 2); 
+insert into Course values ("7", "PASCAL语言", "6", 4); 
+
+
+
