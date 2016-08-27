@@ -33,3 +33,5 @@ ALTER TABLE Student ADD S_entrance DATE
 ALTER TABLE Student MODIFY COLUMN Sage INT
 
 ALTER TABLE Course ADD UNIQUE(Cname)
+
+INSERT INTO Student VALUES ("200215121", "李勇", "男", 20, "CS")
